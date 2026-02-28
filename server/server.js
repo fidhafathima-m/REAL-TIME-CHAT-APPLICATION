@@ -3,7 +3,7 @@ const cors = require("cors")
 const socketIO = require("socket.io")
 const http = require("http")
 const app = express()
-const port = 3000
+const port = 3001
 
 app.use(cors({
     origin: '*'
