@@ -160,3 +160,19 @@ header strong {
   font-weight: 600;
   cursor: pointer;
 }
+
+.typing-indicator {
+  font-size: 0.8rem;
+  color: #888;
+  font-style: italic;
+  margin-top: 5px;
+  padding-left: 10px;
+  /* Add a little animation if you're feeling fancy */
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}

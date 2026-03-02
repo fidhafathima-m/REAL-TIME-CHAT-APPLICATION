@@ -20,7 +20,10 @@ io.on("connection", (socket) => {
     socket.on("sendMessage", (message) => {
         io.emit("message", message);       // broadcast message to all connected clients
     })
-    socket.on("disconnect", (message) => {
+    socket.on("typing", (data) => {
+        socket.broadcast.emit("displayTyping", data);
+    })
+    socket.on("disconnect", () => {
         console.log("User disconnected")
     })
 })
