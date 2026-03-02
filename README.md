@@ -35,34 +35,40 @@ Make sure you have the following installed:
 
 1. Clone the repository
 
-```git clone https://github.com/fidhafathima-m/REAL-TIME-CHAT-APPLICATION.git```
-
-```cd REAL-TIME-CHAT-APPLICATION```
+```bash
+git clone https://github.com/fidhafathima-m/REAL-TIME-CHAT-APPLICATION.git
+cd REAL-TIME-CHAT-APPLICATION
+```
 
 2. Install server dependencies
 
-```cd server```
-
-```npm install```
+```bash
+cd server
+npm install
+```
 
 3. Install client dependencies
 
-```cd ../client```
-
-```npm install```
+```bash
+cd ../client
+npm install
+```
 
 
 ### Running the App
 
 1. Start the backend
-```cd server```
-
-```npm start```
+```bash
+cd server
+npm start
+```
 
 The server will start on http://localhost:5000
 
 2. Start the frontend
-```cd client```
-```npm start```
+```bash
+cd client
+npm start
+```
 
 The React app will open on http://localhost:5173
