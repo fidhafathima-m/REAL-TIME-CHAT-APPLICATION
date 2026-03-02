@@ -36,16 +36,19 @@ Make sure you have the following installed:
 1. Clone the repository
 
 ```git clone https://github.com/fidhafathima-m/REAL-TIME-CHAT-APPLICATION.git```
+
 ```cd REAL-TIME-CHAT-APPLICATION```
 
 2. Install server dependencies
 
 ```cd server```
+
 ```npm install```
 
 3. Install client dependencies
 
 ```cd ../client```
+
 ```npm install```
 
 
@@ -53,6 +56,7 @@ Make sure you have the following installed:
 
 1. Start the backend
 ```cd server```
+
 ```npm start```
 
 The server will start on http://localhost:5000
