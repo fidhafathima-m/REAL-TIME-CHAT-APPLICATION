@@ -14,7 +14,7 @@
 
 A Real-Time Chat Application built using React, Socket.IO, and Node.js/Express that allows users to chat instantly. This project demonstrates how to build a modern real-time messaging app with typing indicators and live message updates.
 
-(Live[https://real-time-chat-application-1-6axb.onrender.com/]
+(Live)[https://real-time-chat-application-1-6axb.onrender.com/]
 
 ## Features
 
