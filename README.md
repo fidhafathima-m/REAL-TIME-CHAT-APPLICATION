@@ -72,3 +72,9 @@ npm start
 ```
 
 The React app will open on http://localhost:5173
+
+
+## Output
+<img width="959" height="476" alt="Image" src="https://github.com/user-attachments/assets/ae244ea4-a618-46a9-9103-2648cd8a2701" />
+
+<img width="959" height="476" alt="Image" src="https://github.com/user-attachments/assets/79e6eed7-6a88-4ce4-87f8-03b55d5b57ad" />
